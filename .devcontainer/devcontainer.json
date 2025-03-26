@@ -1,0 +1,8 @@
+{
+  "name": "Marp Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "extensions": [
+    "marp-team.marp-vscode"
+  ],
+  "postCreateCommand": "npm install -g @marp-team/marp-cli"
+}
